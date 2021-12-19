@@ -1,0 +1,19 @@
+[package]
+name = "loadtest"
+version = "0.1.0"
+edition = "2021"
+autotests = false
+authors = ["Simon Osaka <geniusmickymouse@qq.com>"]
+include = ["src/**/*", "Cargo.toml", "README.md"]
+description = "load test for example"
+repository = "https://github.com/SimonOsaka/rust-web-server-loadtest"
+documentation = ""
+homepage = ""
+keywords = ["loadtest", "test"]
+categories = []
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+goose = "^0.15"
+tokio = "^1.15"
